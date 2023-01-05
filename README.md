@@ -1,11 +1,35 @@
-# Dino Runner
+# 디순이의 사랑 찾아~ 인생을 찾아~
 
-Just like the dinosaur game you get to play every time Comcast refuses to return your internet packets, you can play the same game on iOS. This is a great project to look at if you're interested in learning iOS's SpriteKit.
+구글에서 오프라인 웹 상태가 되면 제공해주는 스티브의 여행을 수정해보았습니다.
 
 ![Dino Runner](https://s3.amazonaws.com/blog123videos/gameplay.gif)
 
-# Future Add-ons
-- Sounds<br>
-- Jump Height based on touch length
-<br>
-If you feel like implementing these add ons yourself, fork the repo and make a pull request! 
+#기말 프로젝트 설명서 (해당 게임은 iPhone 8을 기준으로 제작되었습니다.)
+
+* 주제
+    가. 게임명 : Dino Runner (변경 전 : Steve - Widget Game)
+    나. 게임설명 : 디순(공룡)이는 사랑을 찾아 무한한 사막 세계를 달립니다. 낮이고 밤이고 상관하지 않고 사랑 찾아 인생을 찾아 달립니다!
+    다. 게임방식 
+    - 게임 방식은 간단합니다. 화면을 클릭하면 디순이가 점프합니다. 화면을 클릭하여 디순이 앞에 다가오는 장애물을 뛰어넘어서 피하면 됩니다. 게임은 종료되지 않습니다. 계속해서 빨라질 것이고 속도를 이겨내고 가장 높은 점수를 획득하면 됩니다.
+    - 게임 내에서는 이전 기록과 현재 기록만이 보여집니다. 이전 기록보다 높은 점수를 획득하면 신기록을 달성했다고 보여집니다.
+
+* 변경사항
+    가. 주인공 asset를 변화시켰습니다.
+    - 귀여운 주인공을 만들고 싶어서 머리에는 분홍색 리본을 추가하는 식으로 디자인하였습니다.
+    - 목적 없이 게임을 진행하기보다는 사랑이라는 목적을 만들어 주기 위해 손에 하트를 쥐고 있는 것처럼 디자인하였습니다.
+    - 만약 장애물(선인장, 익룡 등)에 닿을 경우 디순이가 들고 있는 하트가 깨지는 식으로 세부적인 디테일을 추가하였습니다.
+       
+    나. LaunchScreen를 디자인하였습니다.
+    
+    다. 디스플레이를 가로형에서 세로형으로 변경하였습니다.
+    - 두 손으로 플레이해야 한다는 단점을 가진 가로형에서 한 손으로도 편하게 할 수 있는 세로형으로 변경하였습니다.
+    - score를 왼쪽 하단에서 오른쪽 상단으로 위치를 변경하였습니다.
+    
+    라. 게임 시작시 보여지는 글자를 모두 한글로 변경하였습니다.
+    - 가독성을 위해 모두 한글로 변경하였습니다.
+
+    마. 이전 기록을 추가하였습니다.
+    - User Defaults 기능을 사용하여 게임 시작 시 게임 스코어를 저장하고 게임이 다시 시작될 때마다 이전 기록에 출력되도록 추가하였습니다.
+    - 이전 기록보다 현재 기록이 클 경우 게임종료 시 신기록 글자가 출력되도록 하였습니다.
+
+
